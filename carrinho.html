@@ -37,9 +37,9 @@
                     <div class="account pull-right">
                         <ul class="user-menu">				
                             <li><a href="#">Minha Conta</a></li>
-                            <li><a href="cart.html">Carrinho</a></li>
-                            <li><a href="checkout.html">Checkout</a></li>					
-                            <li><a href="register.html">Entrar</a></li>		
+                            <li><a href="carrinho.html">Carrinho</a></li>
+                            <li><a href="confirmar-pedido.html">Checkout</a></li>					
+                            <li><a href="entrar.html">Entrar</a></li>		
                         </ul>
                     </div>
                 </div>
@@ -60,22 +60,22 @@
 
                     <nav id="menu" class="pull-left">
                         <ul>
-                            <li><a href="./products.html">Canecas</a>					
+                            <li><a href="categoria.html">Canecas</a>					
                                 <ul>
-                                    <li><a href="./products.html">Caneca Marvel</a></li>									
-                                    <li><a href="./products.html">Caneca DC</a></li>
+                                    <li><a href="categoria.html">Caneca Marvel</a></li>									
+                                    <li><a href="categoria.html">Caneca DC</a></li>
                                 </ul>
                             </li>															
-                            <li><a href="./products.html">Chaveiros</a></li>			
-                            <li><a href="./products.html">Camisetas</a>
+                            <li><a href="categoria.html">Chaveiros</a></li>			
+                            <li><a href="categoria.html">Camisetas</a>
                                 <ul>									
-                                    <li><a href="./products.html">Camisetas Marvel</a></li>
-                                    <li><a href="./products.html">Camisetas DC</a></li>
-                                    <li><a href="./products.html">Camisetas Cômicas</a></li>
+                                    <li><a href="categoria.html">Camisetas Marvel</a></li>
+                                    <li><a href="categoria.html">Camisetas DC</a></li>
+                                    <li><a href="categoria.html">Camisetas Cômicas</a></li>
                                 </ul>
                             </li>							
-                            <li><a href="./products.html">Promoções</a></li>
-                            <li><a href="./products.html">Black Friday</a></li>
+                            <li><a href="categoria.html">Promoções</a></li>
+                            <li><a href="categoria.html">Black Friday</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -99,40 +99,40 @@
 <section class="main-content">
     <div class="row">
       <div class="span12">
-        <h4 class="title"><span class="text"><strong>Your</strong> Cart</span></h4>
+        <h4 class="title"><span class="text"><strong>Meu</strong> Carrinho</span></h4>
         <table class="table table-striped">
           <thead>
             <tr>
-              <th>Remove</th>
-              <th>Image</th>
-              <th>Product Name</th>
-              <th>Quantity</th>
-              <th>Unit Price</th>
+              <th>Remover</th>
+              <th>Imagem</th>
+              <th>Mone do Produto</th>
+              <th>Quantidade</th>
+              <th>Preço Unitário</th>
               <th>Total</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td><input type="checkbox" value="option1"></td>
-              <td><a href="product-detail.php"><img alt="website template image" src="../assets/images/ladies/9.jpg"></a></td>
+              <td><a href="produto.html"><img alt="website template image" src="themes/images/canecas/1.jpg"></a></td>
               <td>Fusce id molestie massa</td>
-              <td><input type="text" placeholder="1" class="input-mini"></td>
+              <td><input type="number" placeholder="1" class="input-mini"></td>
               <td>$2,350.00</td>
               <td>$2,350.00</td>
             </tr>
             <tr>
               <td><input type="checkbox" value="option1"></td>
-              <td><a href="product-detail.php"><img alt="website template image" src="../assets/images/ladies/1.jpg"></a></td>
+              <td><a href="produto.html"><img alt="website template image" src="themes/images/canecas/1.jpg"></a></td>
               <td>Luctus quam ultrices rutrum</td>
-              <td><input type="text" placeholder="2" class="input-mini"></td>
+              <td><input type="number" placeholder="2" class="input-mini"></td>
               <td>$1,150.00</td>
               <td>$2,450.00</td>
             </tr>
             <tr>
               <td><input type="checkbox" value="option1"></td>
-              <td><a href="product-detail.php"><img alt="website template image" src="../assets/images/ladies/3.jpg"></a></td>
+              <td><a href="produo.html"><img alt="website template image" src="themes/images/canecas/1.jpg"></a></td>
               <td>Wuam ultrices rutrum</td>
-              <td><input type="text" placeholder="1" class="input-mini"></td>
+              <td><input type="number" placeholder="1" class="input-mini"></td>
               <td>$1,210.00</td>
               <td>$1,123.00</td>
             </tr>
@@ -146,25 +146,25 @@
             </tr>
           </tbody>
         </table>
-        <h4>What would you like to do next?</h4>
-        <p>Choose if you have a discount code or reward points you want to use or would like to estimate your delivery cost.</p>
+        <h4>O que você gostaria de fazer em seguida?</h4>
+        <p>Escolha se você quer usar um cupom de desconto ou calcular despesas de envio.</p>
         <label class="radio">
           <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
-          Use Coupon Code</label>
+          Usar cupom de desconto</label>
         <label class="radio">
           <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-          Estimate Shipping &amp; Taxes</label>
+          Calcular frete</label>
         <hr>
         <p class="cart-total right"><strong>Sub-Total</strong>:$100.00<br>
-          <strong>Eco Tax (-2.00)</strong>: $2.00<br>
-          <strong>VAT (17.5%)</strong>: $17.50<br>
-          <strong>Total</strong>: $119.50<br>
+          <strong>Desconto</strong>: $5.00<br>
+          <strong>Frete</strong>: $15.00<br>
+          <strong>Total</strong>: $110.00<br>
         </p>
         <hr>
         <p class="buttons center">
-          <button class="btn" type="button">Update</button>
-          <button class="btn" type="button">Continue</button>
-          <button class="btn btn-inverse" type="submit" id="checkout">Checkout</button>
+          <button class="btn" type="button">Atualizar</button>
+          <button class="btn" type="button">Continuar Comprando</button>
+          <button class="btn btn-inverse" type="submit" id="checkout">Finalizar Compra</button>
         </p>
       </div>
       
@@ -185,10 +185,10 @@
                         <h4>Navigation</h4>
                         <ul class="nav">
                             <li><a href="./index.html">Homepage</a></li>  
-                            <li><a href="./about.html">About Us</a></li>
-                            <li><a href="./contact.html">Contac Us</a></li>
-                            <li><a href="./cart.html">Your Cart</a></li>
-                            <li><a href="./register.html">Login</a></li>							
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contac Us</a></li>
+                            <li><a href="./carrinho.html">Your Cart</a></li>
+                            <li><a href="./entrar.html">Login</a></li>							
                         </ul>					
                     </div>
                     <div class="span4">

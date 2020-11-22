@@ -11,6 +11,7 @@ body{
 label, input, button, select, textarea{
 	font-size: 12px;
 }
+
 ul li a,a{
 	color:#333;
 	outline:0; 
@@ -24,7 +25,7 @@ a{
 	color:#3598DC;
 }
 a:hover{
-	color:#fd4004;
+	color:#3598DC;
 	text-decoration:none;
 }
 .img-al{
@@ -530,7 +531,7 @@ section.our_client .row{
 }
 .search_form input{
 	
-	color:#fff;
+	color:#000;
 	text-shadow:none;
 	padding-right:25px;	
 	border:1px solid #eee;
@@ -681,6 +682,7 @@ section.our_client .row{
 	text-shadow: none;	
 	font-weight: bold;
 }
+
 
 /* Toogle Menu
 ----------------------------------------------------------------------------- */
