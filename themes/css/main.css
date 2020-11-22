@@ -170,6 +170,26 @@ iframe{
 #top-bar .user-menu li:last-child{
 	border-right:0;
 }
+/* ajuste das cores da barra superior */
+#top-bar {
+    background-color: #3598DC;
+}
+#top-bar .span8 a{
+    font-size: 16px;
+    color: #fff;
+}
+/*#top-bar .user-menu li:hover{
+	background-color: #fff;
+        color: #3598DC;
+}*/
+#top-bar .user-menu a:hover{
+	color: #3598DC;
+	background-color: #fff;        
+}
+
+/* end of top bar
+
+
 /* footer 
 ----------------------------------------------------------------------------- */
 section#footer-bar,
@@ -307,7 +327,7 @@ section.navbar{
 	margin-right: 0px;
 }
 #menu > ul > li > a {
-	font-size: 11px;
+	font-size: 14px;
 	color: #111;
 	display: block;
 	text-transform: uppercase;
